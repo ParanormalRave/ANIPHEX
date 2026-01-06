@@ -11,43 +11,41 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Londrina+Sketch&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/bd40e7d740.js" crossorigin="anonymous"></script>
+        <script defer src="./script.js"></script>
     </head>
     <body>
     <div>
         <header>
             <nav>
-                    <span><i class="fa-solid fa-explosion"></i><p>ANIPHEX</p></span>
+                <span><i class="fa-solid fa-explosion"></i><p>ANIPHEX</p></span>
 
+                <div>
+                    <input type="text" placeholder="search">
+                    <a href="./browse.html"><i class="fa-solid fa-magnifying-glass" title="SEARCH"></i></a>
+                    <button type="button"><a href="">Search</a></button>
+                </div>
+                
                 <ul id="menu"> <i class="fa-solid fa-bars"></i>
                     <li><a href="./index.html">HOME</a></li>
-                    <li><a href="./news.html">NEWS</a></li>
                 </ul>
-
-                <ul>
-                    <li title="PROFILE"><i class="fa-regular fa-user"></i></li>
-                    <li title="WATCHLIST"><i class="fa-regular fa-bookmark"></i></li>
-                    <li title="PREMIUM">PREMIUM</li>
-                </ul>
-
-                <a href="./browse.html"><i class="fa-solid fa-magnifying-glass" title="SEARCH"></i></a>
             </nav>
         </header>
         <div id="hero">
             <section>
-                <h1>TRENDING:</h1>
-                    <img src="./dandadan-logo.avif" alt="dandadan-logo" width="100px" height="100px">
-                    <span>16+ shonen|supernatural</span>
-                    <span><i class="fa-regular fa-circle-play" title="WATCH"></i> <i class="fa-regular fa-bookmark" title="SAVE FOR LATER"></i></span>
-            </section>
-            <aside>
+                <div id="heading">
+                    <h1>ANIPHEX</h1>
+                    <p>Top Anime Streaming website</p>
+                </div>
+
+            <aside class="drop">
                 <h2>GENRE</h2>
-                    <a href="#romance">ROMANCE</a>
-                    <a href="#action">ACTION</a>
-                    <a href="#comedy">COMEDY</a> 
-                    <a href="#isekai">ISEKAI</a>
-                    <a href="#adventure">ADVENTURE</a>
-                    <a href="#psychological">PSYCHOLOGICAL</a>
-                    <a href="#horror">HORROR</a>
+                    <a href="#romance" class="genres"><i class="fa-solid fa-heart"></i> ROMANCE</a>
+                    <a href="#action" class="genres"> <i class="fa-solid fa-shield-cat"></i> ACTION</a>
+                    <a href="#comedy" class="genres"> <i class="fa-regular fa-face-grin-squint"></i> COMEDY</a> 
+                    <a href="#isekai" class="genres"> <i class="fa-solid fa-baby-carriage"></i> ISEKAI</a>
+                    <a href="#adventure" class="genres"> <i class="fa-brands fa-space-awesome"></i> ADVENTURE</a>
+                    <a href="#psychological" class="genres"> <i class="fa-solid fa-chess"></i> PSYCHOLOGICAL</a>
+                    <a href="#horror" class="genres"> <i class="fa-solid fa-skull"></i> HORROR</a>
             </aside>
         </div>
         <main id="genre">
@@ -1089,12 +1087,7 @@
                 <a href=""><i class="fa-brands fa-x-twitter"></i> X</a>
                 <a href=""><i class="fa-brands fa-youtube"></i> Youtube</a>
             </div>
-            <div>
-                <h2>Navigation</h2>
-                <a href="#top">TOP</a>
-                <a href="#genre">GENRES</a>
-                <a href="./news.html">NEWS</a>
-            </div>
+        
             <div>
                 <h2>Personal</h2>
                 <a>PROFILE </a>
